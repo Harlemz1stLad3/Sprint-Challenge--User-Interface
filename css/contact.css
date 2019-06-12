@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 56%;
+    margin-left: 250px;
+    border: red solid 1px;  
+}
+
+.menubar {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    align-items: baseline;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin-left: 140px;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+.logo {
+    margin: 45px;
+    margin-right: 115px;
+}
+
+.jumbo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    width: 900px;
+}
+
+.form-title {
+
+  text-align: center;
+
+  background-color:lightgrey;
+
+  border: 1px solid red;
+
+  border-radius: 3px;
+
+  width: 100%;
+
+  margin: 40px 0;
+
+  padding: 10px;
+
+}
+
+.form-title h1 {
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+
+}
+
+.contact-form {
+
+  background-color: lightgrey;
+
+  border: 1px solid black;
+
+  border-radius: 3px;
+
+  width: 30px;
+
+  padding: 50px;
+
+  margin: 0 0 40px 0;
+
+}
+
+.form-row {
+
+  margin-bottom: 40px;
+
+  display: flex;
+
+  justify-content: flex-start;
+
+  flex-direction: column;
+
+  flex-wrap: wrap;
+
+}
+
+​
+
+.form-row input[type='text'],
+
+.form-row input[type='email'] {
+
+  background-color: lightgrey;
+
+  border: 1px solid black;
+
+  border-radius: 3px;
+
+  width: 100%;
+
+  padding: 7px;
+
+  font-size: 14px;
+
+}
+
+​
+
+.form-row label {
+
+  margin-bottom: 15px;
+
+}
+
+.form-row input[type='email']:invalid {
+
+  border: 1px solid black;
+
+  color: black;
+
+  box-shadow: none; 
+
+ }
+
+.form-row textarea {
+
+  font-family: "Helvetica", "Arial", sans-serif;
+
+  font-size: 14px;
+  border: 1px solid #f5f5f5;
+
+  border-radius: 3px;
+
+  min-height: 200px;
+
+  margin-bottom: 10px;
+
+  padding: 7px;
+
+  resize: none;
+
+}
+
+​
+
+.form-row .instructions {
+
+  color: black;
+
+  font-size: 14px;
+
+  margin-bottom: 30px;
+
+}
+
+.form-row button {
+
+  font-size: 16px;
+
+  font-weight: bold;
+  color: #FFFFFF;
+
+  background-color: black;
+  border: none;
+
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+
+}
+
+​
+
+.form-row button:hover {
+
+  background-color: white;
+
+color: black
+
+}
+
+​
+
+.form-row button:active {
+
+  background-color: black;
+
+}
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+/* Contact page CSS ends here */
